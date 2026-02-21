@@ -1,27 +1,36 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Contacto - Reportar Amenaza Digital</title>
 </head>
 <body>
-    <header> REPORTAR AMENAZA DIGITAL</header>
 
-    <nav>
-        <ol>
-            <li><a href="index.html">Regresar al inicio</a></li>
-        </ol>
-    </nav>
+    <header>
+        <h1>Reportar Amenaza Digital</h1>
+        <p>Formulario para reportar incidentes de seguridad en línea</p>
+    </header>
 
     <main>
-        <form action="Registro.html">
+        <form action="Registro.html" method="post">
 
-            <section><fieldset>
-                <legend>DATOS PERSONALES</legend>
-                <label for="nombre">Ingresa tu nombre:</label>
-                 <input type="text" name="" id="nombre" placeholder="Nombre" required> <br>
+            <fieldset>
+                <legend>Datos personales</legend>
+
+ rama-day
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                <br><br>
+
+                <label for="telefono">Teléfono:</label><br>
+                <input type="tel" id="telefono" name="telefono" placeholder="Número telefónico" required>
+                <br><br>
+
+                <label for="correo">Correo electrónico:</label><br>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@escuela.edu" required>
+                <br><br>
 
             <br>
                 <label for="telefono">Telefono:</label>
@@ -31,21 +40,32 @@
                <label for="Email">Correro:</label>
                 <input type="email"  title="Usa tu correo"required> <br>
             <br>
+ main
 
-                Fecha del incidente: <input type="date"><br>
+                <label for="fecha">Fecha del incidente:</label><br>
+                <input type="date" id="fecha" name="fecha" required>
+                <br><br>
+            </fieldset>
 
             <br>
 
-            </fieldset></section>
+            <fieldset>
+                <legend>Datos del incidente</legend>
 
+                <label for="tipo">Tipo de amenaza:</label><br>
+                <textarea id="tipo" name="tipo" rows="4" placeholder="Ejemplo: phishing, robo de identidad, malware" required></textarea>
+                <br><br>
 
-            <section><fieldset>
+                <label for="descripcion">Descripción del incidente:</label><br>
+                <textarea id="descripcion" name="descripcion" rows="6" placeholder="Describe qué ocurrió, cómo sucedió y si hubo consecuencias" required></textarea>
+                <br><br>
+            </fieldset>
 
-                Tipo de amenaza:<textarea name="Comentarios" id="" rows="5" required></textarea> <br>
-                <br>
-                Descripción del incidente:<textarea name="Comentarios" id="" rows="5" required></textarea> <br>
+            <br>
 
-            </fieldset></section>
+            <input type="submit" value="Enviar reporte">
+
+ rama-day
 
             <section>
                 <br>
@@ -55,13 +75,23 @@
             <br>
             </section>
 
+ main
         </form>
-
     </main>
 
+    <hr>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">← Regresar al inicio</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+
     <footer>
-            <p>Proyecto escolar - Herramientas Web</p>
-            <p>&copy; 2026 Equipo de trabajo</p>
+        <p>Proyecto escolar - Herramientas Web</p>
+        <p>&copy; 2026 Equipo de trabajo</p>
     </footer>
 
 </body>
