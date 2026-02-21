@@ -1,79 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>Test de Seguridad Digital</title>
 </head>
 <body>
-    <header>Evalúa tu nivel de seguridad digital</header>
-
+    <br>
     <nav>
-        <ol>
-            <li><a href="index.html">Regresar al inicio</a></li>
-        </ol>
+        <a href="index.html">Inicio</a> |
+        <a href="consejos.html">Consejos</a> |
+        <a href="amenazas.html">Amenazas</a> |
+        <a href="contacto.html">Contacto</a>
     </nav>
+    <br>
+    <hr>
 
+    <header>
+        <h1>Evalúa tu nivel de seguridad digital</h1>
+        <p>Responde este pequeño cuestionario para conocer qué tan seguro navegas en internet.</p>
+    </header>
+
+    <br>
     <main>
-        <form action="Registro.html">
+        <form action="Registro.html" method="post">
 
-            <section><fieldset>
+            <fieldset>
+                <legend>Datos del usuario</legend>
 
-                <label for="nombre">Ingresa tu nombre:</label>
-                 <input type="text" name="" id="nombre" placeholder="Nombre" required> <br>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                <br><br>
+
+                <label for="correo">Correo electrónico:</label><br>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@gmail.com" required>
+                <br><br>
+            </fieldset>
+
             <br>
 
-                <label for="Email">Correro :</label>
-                <input type="email" pattern=".+@gmail.com" title="Usa tu correo"required> <br>
+            <fieldset>
+                <legend>Evaluación</legend>
+
+                <p>¿Usas la misma contraseña en varias cuentas?</p>
+                <input type="radio" id="p1_si" name="p1" value="si" required>
+                <label for="p1_si">Sí</label>
+                <input type="radio" id="p1_no" name="p1" value="no">
+                <label for="p1_no">No</label>
+
+                <br><br>
+
+                <p>¿Tienes activada la verificación en dos pasos?</p>
+                <input type="radio" id="p2_si" name="p2" value="si" required>
+                <label for="p2_si">Sí</label>
+                <input type="radio" id="p2_no" name="p2" value="no">
+                <label for="p2_no">No</label>
+
+                <br><br>
+
+                <p>¿Has recibido correos sospechosos recientemente?</p>
+                <input type="radio" id="p3_si" name="p3" value="si" required>
+                <label for="p3_si">Sí</label>
+                <input type="radio" id="p3_no" name="p3" value="no">
+                <label for="p3_no">No</label>
+
+                <br><br>
+
+                <p>¿Actualizas tus dispositivos con frecuencia?</p>
+                <input type="radio" id="p4_si" name="p4" value="si" required>
+                <label for="p4_si">Sí</label>
+                <input type="radio" id="p4_no" name="p4" value="no">
+                <label for="p4_no">No</label>
+
+            </fieldset>
 
             <br>
+            <br>
 
-            </fieldset></section>
-
-            <section>Evaluación<fieldset>
-                
-                ¿Usas la misma contraseña en varias cuentas?:
-                <label for="S"></label> <br>
-                SI<input type="radio" id="S" name="Respuesta" >
-                <label for="N"></label>
-                NO<input type="radio"  id="N"  name="Respuesta"> <br>
-                <br>
-
-
-                ¿Tienes activada la verificación en dos pasos?:
-                <label for="T"></label> <br>
-                SI<input type="radio" id="T" name="Verificacion" >
-                <label for="F"></label>
-                NO<input type="radio"  id="F"  name="Verificacion"> <br>
-                <br>
-
-
-                ¿Has recibido correos sospechosos recientemente?:
-                <label for="A"></label> <br>
-                SI<input type="radio" id="A" name="Recibir" >
-                <label for="B"></label>
-                NO<input type="radio"  id="B"  name="Recibir"> <br>
-                <br>
-
-
-                ¿Actualizas tus dispositivos con frecuencia?:
-                <label for="Si"></label> <br>
-                SI<input type="radio" id="Si" name="Actualiza" >
-                <label for="No"></label>
-                NO<input type="radio"  id="No"  name="Actualiza"> <br>
-
-            </section> </fieldset>  
-            <input type="reset">
-
+            <input type="reset" value="Limpiar">
             <input type="submit" value="Evaluar mi seguridad">
-        </form>
 
+        </form>
     </main>
 
+    <br>
+    <hr>
+    <br>
     <footer>
         <p>Proyecto escolar - Herramientas Web</p>
         <p>&copy; 2026 Equipo de trabajo</p>
     </footer>
+    <br>
 
 </body>
 </html>
