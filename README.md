@@ -2,28 +2,25 @@
 # Proyecto Web: Desinformación sobre Seguridad Digital
 Este proyecto tiene como objetivo informar sobre la desinformación relacionada con la seguridad digital.
 
-## Páginas del sitio
-- index.html (inicio)
-- amenazas.html (amenazas digitales)
-- consejos.html (recomendaciones)
-- contacto.html (contacto)
-
-
-
-## Integrantes
-- Alexia Alvarez (rama-alexia)
-- Javier Lara (rama-javi)
-
-## Organización del trabajo
-Cada integrante trabajó en su propia rama para evitar conflictos y después se integraron los cambios a la rama main mediante pull request.
-
-
 
 ## Problemática
 En la actualidad, la comunidad se enfrenta a un aumento constante de ataques cibernéticos y noticias falsas. Muchos usuarios carecen de los conocimientos básicos para identificar estafas como el phishing o para verificar la veracidad de la información que consumen en redes sociales, lo que pone en riesgo su privacidad y seguridad financiera.
 
 ## Objetivo
 Desarrollar una plataforma educativa e informativa que brinde herramientas prácticas, consejos de seguridad y guías claras para que los usuarios aprendan a identificar amenazas digitales y adopten mejores prácticas de higiene digital.
+
+
+
+## Páginas del sitio
+- index.html (inicio)
+- amenazas.html (amenazas digitales)
+- consejos.html (recomendaciones)
+- contacto.html (contacto)
+
+## Integrantes
+- Alexia Alvarez (rama-alexia)
+- Javier Lara (rama-javi)
+
 
 ## Roles del equipo
 Para este proyecto, nos hemos dividido las responsabilidades de la siguiente manera:
@@ -32,6 +29,10 @@ Para este proyecto, nos hemos dividido las responsabilidades de la siguiente man
 - Desarrollador Front 1: Javier - Responsable de la estructura principal, el índice y la navegación del sitio.
 
 - Desarrollador Front 2: Day - Responsable de las secciones secundarias (Amenazas), creación del formulario y el footer del sitio.
+
+
+## Organización del trabajo
+Cada integrante trabajó en su propia rama para evitar conflictos y después se integraron los cambios a la rama main mediante pull request.
 
 
 
