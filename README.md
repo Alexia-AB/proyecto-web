@@ -37,7 +37,7 @@ Cada integrante trabajó en su propia rama para evitar conflictos y después se 
 
 
 ## Conflicto generado
-El conflicto ocurrió de manera intencional cuando dos integrantes del equipo modificaron simultáneamente el mismo párrafo de descripción en el archivo index.html desde diferentes ramas. Al intentar unir ambas versiones en la rama principal (main), Git detectó cambios contradictorios en las mismas líneas de código.
+El conflicto ocurrió de manera intencional cuando dos integrantes del equipo modificaron simultáneamente el mismo párrafo de descripción en el archivo Consejos.html desde diferentes ramas. Al intentar unir ambas versiones en la rama principal (main), Git detectó cambios contradictorios en las mismas líneas de código.
 
 ## Cómo lo resolvimos
 Identificación: Localizamos las marcas de conflicto (<<<<<<<, =======, >>>>>>>) dentro del código.
