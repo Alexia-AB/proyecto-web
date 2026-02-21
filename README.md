@@ -9,12 +9,14 @@ Este proyecto tiene como objetivo informar sobre la desinformación relacionada 
 - contacto.html (contacto)
 
 
+
 ## Integrantes
 - Alexia Alvarez (rama-alexia)
 - Javier Lara (rama-javi)
 
 ## Organización del trabajo
 Cada integrante trabajó en su propia rama para evitar conflictos y después se integraron los cambios a la rama main mediante pull request.
+
 
 
 ## Problemática
@@ -30,6 +32,7 @@ Para este proyecto, nos hemos dividido las responsabilidades de la siguiente man
 - Desarrollador Front 1: Javier - Responsable de la estructura principal, el índice y la navegación del sitio.
 
 - Desarrollador Front 2: Day - Responsable de las secciones secundarias (Amenazas), creación del formulario y el footer del sitio.
+
 
 
 ## Conflicto generado
