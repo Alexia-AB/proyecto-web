@@ -8,12 +8,14 @@ Este proyecto tiene como objetivo informar sobre la desinformación relacionada 
 - consejos.html (recomendaciones)
 - contacto.html (contacto)
 
+
 ## Integrantes
 - Alexia Alvarez (rama-alexia)
 - Javier Lara (rama-javi)
 
 ## Organización del trabajo
 Cada integrante trabajó en su propia rama para evitar conflictos y después se integraron los cambios a la rama main mediante pull request.
+
 
 ## Problemática
 En la actualidad, la comunidad se enfrenta a un aumento constante de ataques cibernéticos y noticias falsas. Muchos usuarios carecen de los conocimientos básicos para identificar estafas como el phishing o para verificar la veracidad de la información que consumen en redes sociales, lo que pone en riesgo su privacidad y seguridad financiera.
@@ -23,11 +25,12 @@ Desarrollar una plataforma educativa e informativa que brinde herramientas prác
 
 ## Roles del equipo
 Para este proyecto, nos hemos dividido las responsabilidades de la siguiente manera:
-Project Manager: Alexia - Responsable de gestionar el repositorio, supervisar los issues y aprobar los Pull Requests.
+- Project Manager: Alexia - Responsable de gestionar el repositorio, supervisar los issues y aprobar los Pull Requests.
 
-Desarrollador Front 1: Javier - Responsable de la estructura principal, el índice y la navegación del sitio.
+- Desarrollador Front 1: Javier - Responsable de la estructura principal, el índice y la navegación del sitio.
 
-Desarrollador Front 2: Day - Responsable de las secciones secundarias (Amenazas), creación del formulario y el footer del sitio.
+- Desarrollador Front 2: Day - Responsable de las secciones secundarias (Amenazas), creación del formulario y el footer del sitio.
+
 
 ## Conflicto generado
 El conflicto ocurrió de manera intencional cuando dos integrantes del equipo modificaron simultáneamente el mismo párrafo de descripción en el archivo index.html desde diferentes ramas. Al intentar unir ambas versiones en la rama principal (main), Git detectó cambios contradictorios en las mismas líneas de código.
